@@ -17,4 +17,4 @@ https://drive.google.com/drive/folders/1F2iNuVyaSVKNfrimL9AXfVdwxqoQdgV5?usp=sha
 
 The code in QueryEng.java for building the index is currently commented out.
 
-Run the QueryEng.java class to see the MRR that is returned after running all of the queries from the questions.txt file through the index.
+Run the QueryEng.java class to see the MRR that is returned for running all of the queries from the questions.txt file through the index.
