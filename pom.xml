@@ -4,6 +4,34 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <profiles>
+        <profile>
+        <id>profile1</id>
+        <build>
+            <plugins>
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>exec-maven-plugin</artifactId>
+                    <version>1.2.1</version>
+                    <executions>
+                        <execution>
+                            <goals>
+                                <goal>java</goal>
+                            </goals>
+                        </execution>
+                    </executions>
+                    <configuration>
+                        <mainClass>QueryEng</mainClass>
+                        <arguments>
+                        </arguments>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </build>
+        </profile>
+
+    </profiles>
+
     <groupId>edu.arizona.cs</groupId>
     <artifactId>WatsonProject</artifactId>
     <version>1.0-SNAPSHOT</version>
